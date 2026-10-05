@@ -123,6 +123,18 @@ body {
     cursor: pointer;
     color: #D4AF37;
 }
+#me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ff4400;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    gap: 1rem;
+    cursor: pointer;
+    color: #D4AF37; 
+}
 #me:hover{
     transform: scale(1.1);
     transition: all 0.4s ease-in-out
